@@ -15,7 +15,7 @@ sudo pkill -U www-data
 
 Necessary Commands
 
-copy this project into /home/pi/
+copy this project into /home/pi/ by
 
 git clone https://github.com/masaru1-office1/buster_camera.git
 
@@ -26,3 +26,5 @@ docker exec -it containerID bash
 In the container
 
 ./install.sh
+
+access to localhost:8080 on browser

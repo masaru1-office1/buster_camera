@@ -1,14 +1,28 @@
 # buster_camera
 
-## Using buster with desktop as host os.
+## This project uses buster with desktop as host os and buster as container image.
 
-Add permission to container
+1. Add permission to container
 
 https://raspberrypi.stackexchange.com/questions/101462/camera-access-in-docker-container-is-generating-errors-locking
 
-while a process is using camera module, other process seems not to use camera.
+2. While a process is using camera module, other process seems not to use camera.
 
 To delete RPi_Cam_Web_Interface process,
 
 sudo pkill -U www-data
 
+
+Necessary Commands
+
+copy this project into /home/pi/
+
+git clone https://github.com/masaru1-office1/buster_camera.git
+
+docker-compose up -d --build
+
+docker exec -it containerID bash
+
+In the container
+
+./install.sh

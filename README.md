@@ -6,9 +6,9 @@
 
 https://raspberrypi.stackexchange.com/questions/101462/camera-access-in-docker-container-is-generating-errors-locking
 
-2. While a process is using camera module, other process seems not to use camera.
+2. While a process is using camera module, other process seems not to be able to use camera.
 
-   To delete RPi_Cam_Web_Interface process,
+   if host OS is using RPi_Cam_Web_Interface process, delete the processes by
 ```
 sudo pkill -U www-data
 ```

@@ -8,21 +8,21 @@ https://raspberrypi.stackexchange.com/questions/101462/camera-access-in-docker-c
 
 2. While a process is using camera module, other process seems not to use camera.
 
-To delete RPi_Cam_Web_Interface process,
-
+   To delete RPi_Cam_Web_Interface process,
+```
 sudo pkill -U www-data
-
+```
 
 Necessary Commands
 
 copy this project into /home/pi/ by
-
+```
 git clone https://github.com/masaru1-office1/buster_camera.git
 
 docker-compose up -d --build
 
 docker exec -it containerID bash
-
+```
 In the container
 
 ./install.sh

@@ -14,7 +14,7 @@ sudo pip3 install docker-compose
 
 copy this project into /home/pi/ by
 ```
-git clone https://github.com/masaru1-office1/buster_camera.git
+git clone --recursive https://github.com/masaru1-office1/buster_camera.git
 ```
 Then start docker
 ```

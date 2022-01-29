@@ -18,13 +18,14 @@ Necessary Commands
 copy this project into /home/pi/ by
 ```
 git clone https://github.com/masaru1-office1/buster_camera.git
-
+```
+Then start docker
+```
 docker-compose up -d --build
-
 docker exec -it containerID bash
 ```
-In the container
-
+In the container in RPi_Cam_Web_Interface folder
+```
 ./install.sh
-
+```
 access to localhost:8080 on browser

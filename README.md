@@ -2,6 +2,8 @@
 
 ## This project uses buster with desktop as host os and buster as container image.
 
+Enabe camera module by Raspberry Pi Configuration
+
 Necessary Commands
 
 docker setup

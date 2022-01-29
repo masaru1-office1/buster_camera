@@ -17,7 +17,7 @@ in RPi_Cam_Web_Interface folder
 ```
 ./install.sh
 ```
-access to localhost:8080 on browser
+access to http://localhost:8080 on browser
 
 
 ## If the web camera doesn't work

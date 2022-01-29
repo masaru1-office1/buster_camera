@@ -24,7 +24,7 @@ Then start docker
 docker-compose up -d --build
 docker exec -it containerID bash
 ```
-In the container in RPi_Cam_Web_Interface folder
+in RPi_Cam_Web_Interface folder
 ```
 ./install.sh
 ```

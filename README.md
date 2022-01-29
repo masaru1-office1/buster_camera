@@ -4,6 +4,14 @@
 
 Necessary Commands
 
+docker setup
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker pi
+sudo pip3 install docker-compose
+```
+
 copy this project into /home/pi/ by
 ```
 git clone https://github.com/masaru1-office1/buster_camera.git

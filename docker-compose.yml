@@ -10,4 +10,5 @@ services:
       - /dev/vchiq:/dev/vchiq
     ports:
       - 8080:80
+    privileged: true
     tty: true

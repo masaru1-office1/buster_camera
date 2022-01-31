@@ -2,11 +2,9 @@
 
 ## This project uses buster with desktop as host os and buster as container image.
 
-Enabe camera module by Raspberry Pi Configuration
+Enable camera module by Raspberry Pi Configuration
 
-Necessary Commands
-
-docker setup
+docker install
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
@@ -18,12 +16,12 @@ copy this project into /home/pi/ by
 ```
 git clone --recursive https://github.com/masaru1-office1/buster_camera.git
 ```
-Then start docker
+Then start docker in buster_camera folder
 ```
 docker-compose up -d --build
 docker exec -it containerID bash
 ```
-in RPi_Cam_Web_Interface folder
+in RPi_Cam_Web_Interface folder in the container
 ```
 ./install.sh
 ```

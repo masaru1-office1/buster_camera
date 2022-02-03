@@ -16,7 +16,7 @@ copy this project into /home/pi/ by
 ```
 git clone --recursive https://github.com/masaru1-office1/buster_camera.git
 ```
-Then start docker in buster_camera folder
+Then start docker in the buster_camera folder
 ```
 docker-compose up -d --build
 docker exec -it containerID bash
